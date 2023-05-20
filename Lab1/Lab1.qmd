@@ -30,7 +30,7 @@ title: "Lab1"
 system2("systeminfo", stdout = TRUE)
 ```
 
-2\. Далее команда system("wmic cpu get name") для вывода информации о процессоре
+2\. Далее команда system2("wmic cpu get name") для вывода информации о процессоре
 
 ```{r}
 system2("cmd", args = c("/c", "wmic cpu get name"), stdout = TRUE)
