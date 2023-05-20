@@ -46,7 +46,7 @@
 <ol type="1">
 <li>ОС Windows 10</li>
 <li>RStudio Desktop</li>
-<li>Интерпретатор языка R 4.2.2</li>
+<li>Интерпретатор языка R 4.3.0</li>
 </ol>
 </section>
 <section id="план" class="level2">
