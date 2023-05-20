@@ -14,9 +14,9 @@ mind-карты
 
 2.  Была использована программа Freeplane
 
-3.  Результат ![mindmap](~/Gost/mindmap1.jpg)
-    ![mindmap](~/Gost/mindmap.jpg) ![mindmap](~/Gost/mindmap2.jpg)
-    ![mindmap](~/Gost/mindmap3.jpg) ![mindmap](~/Gost/mindmap4.jpg)
+3.  Результат ![mindmap](mindmap1.jpg)
+    ![mindmap](mindmap.jpg) ![mindmap](mindmap2.jpg)
+    ![mindmap](mindmap3.jpg) ![mindmap](mindmap4.jpg)
 
 ## Оценка результата
 
