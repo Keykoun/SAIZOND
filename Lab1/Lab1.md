@@ -165,9 +165,9 @@
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">system2</span>(<span class="st">"cmd"</span>, <span class="at">args =</span> <span class="fu">c</span>(<span class="st">"/c"</span>, <span class="st">"wmic cpu get name"</span>), <span class="at">stdout =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] "Name                                    \r"
-[2] "AMD Ryzen 5 6600H with Radeon Graphics  \r"
-[3] "\r"                                        </code></pre>
+<pre><code>[1] "Name                                      \r"
+[2] "Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz  \r"
+[3] "\r"                                 </code></pre>
 </div>
 </div>
 <p>3. Также выполним команду system(“powershell.exe Get-EventLog -LogName System -Newest 30”) для вывода логов</p>
