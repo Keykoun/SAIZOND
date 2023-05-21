@@ -10,7 +10,7 @@
 
 1. Подготовка файлов кофигураций
 
-* Клонируем репозитурий с GitHub
+* Клонируем репозиторий с GitHub
 
 ```()
 sudo git clone https://github.com/OpenCTI-Platform/docker.git 
