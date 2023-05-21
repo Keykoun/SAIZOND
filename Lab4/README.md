@@ -16,7 +16,7 @@
 sudo git clone https://github.com/OpenCTI-Platform/docker.git 
 ```
 
-![All text](img1.png)
+![](img1.png)
 
 * Генерируем UUID
 
@@ -30,11 +30,11 @@ cat /proc/sys/kernel/random/uuid
 sudo sysctl -w vm.max_map_count=1048575
 ```
 
-![All text](img3.png)
+![](img3.png)
 
 * Конфигурируем файл `.env`
 
-![All text](img2.png)
+![](img2.png)
 
 * Дополнительная установка ELK
 
@@ -50,11 +50,11 @@ sudo sysctl -w vm.max_map_count=1048575
 sudo docker-compose up -d
 ```
 
-![All text](img4.png)
+![](img4.png)
 
 3. Перейдем в веб-интерфейс OpenCTI `localhost:8088`
 
-![All text](img5.png)
+![](img5.png)
 
 4. Зайдем на сайт с документацией по импорту файлов и увидем, что существует библиотека python для работы с OpenCTI. Напишем код для импорта файла в opencti:
 
@@ -89,21 +89,21 @@ for domain in domains:
 Ответ:
 ![](img6.png)
 
-![All text](img7.png)
+![](img7.png)
 
 5. Преобразуем все индикаторы в Observables
 
-![All text](img8.png)
+![](img8.png)
 
-![All text](img9.png)
+![](img9.png)
 
 6. Импортируем сетевой трафик, полученный в lab_2 в OpenCTI
 
-![All text](img10.png)
+![](img10.png)
 
 7. Добавим этот файл в рабочую область
 
-![All text](img11.png)
+![](img11.png)
 
 8. Перейдем в раздел с анализом и отфильтруем поиск по нежелательному траффику
 
