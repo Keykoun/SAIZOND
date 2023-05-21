@@ -36,23 +36,23 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
 docker-compose up -d
 ```
 
-![All text](./screens/s1.png)
+![All text](img1.png)
 
 3. Переходим на `localhost:5061` и авторизируемся
 
-![All text](./screens/s2.png)
+![All text](img2.png)
 
 4. Проверям, что установленны все средства для сбора информации из файлов журналов и сбора аналитики трафика
 
-![All text](./screens/s3.png)
+![All text](img3.png)
 
 5. Создаем новый data view для filebeat
 
-![Att text](./screens/s4.png)
+![Att text](img4.png)
 
 6. Создаем новый data view для packetbeat
 
-![All text](./screens/s5.png)
+![All text](img5.png)
 
 ## Оценка результата
 
